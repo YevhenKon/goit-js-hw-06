@@ -18,7 +18,7 @@ const listImg = document.querySelector(".gallery")
 let list = ''
 
 images.forEach(image => {
- list += `<li><img src=${image.url} alt=${image.alt}" width="300">`
+ list += `<li class = 'location'><img src=${image.url} alt=${image.alt}" width="300">`
 })
 
 console.log(list);
